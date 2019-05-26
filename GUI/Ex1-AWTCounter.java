@@ -10,7 +10,7 @@ public class AWTCounter extends Frame implements ActionListener{
 	private int count = 0;     // Counter's value
 	
 	public AWTCounter() {
-		setLayout(new FlowLayout());
+	    setLayout(new FlowLayout());
         // "super" Frame, which is a Container, sets its layout to FlowLayout to arrange
         // the components from left-to-right, and flow to next row from top-to-bottom.
 		
@@ -32,13 +32,9 @@ public class AWTCounter extends Frame implements ActionListener{
 	    
 	    setTitle("AWT Counter");  // "super" Frame sets its title
 	    setSize(250, 100);        // "super" Frame sets its initial window size
-	 
-	    
 	    
 	    setVisible(true); // "super" Frame shows
-	    
-	    
-	    
+	        
 	}
 	
 	public static void main(String[] args) {
