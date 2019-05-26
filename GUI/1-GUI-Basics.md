@@ -2,6 +2,9 @@
 ## Example 1: AWTCounter
 
 How to setup a basic AWT frame
+
+the `setLayout()` (inherited from the superclass Frame) is used to set the layout of the container. FlowLayout is used which arranges the components in left-to-right and flows into next row in a top-to-bottom manner.
+
 ```
 import java.awt.*;        // Using AWT container and component classes
 import java.awt.event.*;  // Using AWT event classes and listener interfaces
