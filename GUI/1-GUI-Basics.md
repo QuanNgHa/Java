@@ -41,6 +41,10 @@ public class AWTCounter extends Frame implements ActionListener{
 
 ```
 
+` btnCount.addActionListener(this);` to setup the event-handling mechanism. Whenever the button is clicked, the actionPerformed() will be called. In the actionPerformed(), the counter value increases by 1 and displayed on the TextField.
+
+
+
 **Tip 1: How to close AWT Frame in Esclipe**
 ![image](https://user-images.githubusercontent.com/47073386/58379588-1c8a4d00-7fd8-11e9-8414-53e41424859f.png)
 
