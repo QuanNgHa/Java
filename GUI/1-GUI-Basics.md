@@ -35,7 +35,7 @@ public class AWTCounter extends Frame implements ActionListener{
 
 ```
 
-Tip 1: How to close AWT Frame in Esclipe
+**Tip 1: How to close AWT Frame in Esclipe**
 ![image](https://user-images.githubusercontent.com/47073386/58379588-1c8a4d00-7fd8-11e9-8414-53e41424859f.png)
 
 To exit this program, you have to close the CMD-shell (or press "control-c" on the CMD console); or push the "red" close button in Eclipse's Application Console. This is because we have yet to write the handler for the Frame's close button. 
