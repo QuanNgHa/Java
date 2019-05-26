@@ -5,8 +5,8 @@ How to setup a basic AWT frame
 
 * `setLayout()` (inherited from the superclass Frame) is used to set the layout of the container. 
 * `FlowLayout` is used which arranges the components in left-to-right and flows into next row in a top-to-bottom manner.
-*`setSize(), setTitle()` (inherited from the superclass Frame) to set the initial size and the title of the Frame.  
-*`setVisible(true)` is then invoked to show the display.
+* `setSize(), setTitle()` (inherited from the superclass Frame) to set the initial size and the title of the Frame.  
+* `setVisible(true)` is then invoked to show the display.
 
 ```
 import java.awt.*;        // Using AWT container and component classes
